@@ -1,4 +1,4 @@
-<h1>create an article</h1>
+<h1> edit existing article </h1>
 
 <!--display submit error-->
 <% if @article.errors.any? %>
@@ -15,7 +15,7 @@
 
 <%= form_for @article do |f| %>
   <p>
-<!-- The second parameter to label helper will allow you to set custom text.
+    <!-- The second parameter to label helper will allow you to set custom text.
 <%#= f.label :title, 'Your Title' %>-->
     <%= f.label :title  %><br>
     <%= f.text_field :title  %>

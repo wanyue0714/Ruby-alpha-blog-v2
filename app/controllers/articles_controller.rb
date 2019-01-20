@@ -1,5 +1,11 @@
 class ArticlesController < ApplicationController
+  # index action
+  def index
+    # get all articles
+    @articles = Article.all
+  end
 
+  # new an article
   def new
     @article = Article.new
   end
@@ -25,6 +31,23 @@ class ArticlesController < ApplicationController
   def show
     @article = Article.find(params[:id])
   end
+
+  # udate the content after eidt
+  def update
+    @article = Article.find(params[:id])
+    if @article.update(article_params)
+      flash[:notice] = "Article was successfully updated"
+      redirect_to article_path(@article)
+    else
+      render 'edit'
+    end
+  end
+
+  # edit article according to id
+  def edit
+    @article = Article.find(params[:id])
+  end
+
 
   # this is a private function for passing parameters to create method
   private
