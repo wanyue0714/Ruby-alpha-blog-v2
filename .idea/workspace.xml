@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23de19e6-9043-425b-9dfb-a0fc521ecef0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/articles/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/articles/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/articles/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="59" column="91" lean-forward="true" selection-start-line="59" selection-start-column="91" selection-end-line="59" selection-end-column="91" />
+            <state relative-caret-position="75">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -55,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <caret line="2" column="79" lean-forward="true" selection-start-line="2" selection-start-column="79" selection-end-line="2" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -153,8 +145,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
       </list>
     </option>
   </component>
@@ -166,8 +158,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="118" />
-    <option name="y" value="66" />
+    <option name="x" value="434" />
+    <option name="y" value="29" />
     <option name="width" value="1182" />
     <option name="height" value="734" />
   </component>
@@ -380,15 +372,15 @@
       <updated>1547752777585</updated>
       <workItem from="1547752779053" duration="317000" />
       <workItem from="1547753121535" duration="785000" />
-      <workItem from="1547753979558" duration="26137000" />
+      <workItem from="1547753979558" duration="26681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27239000" />
+    <option name="totallyTimeSpent" value="27783000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="118" y="66" width="1182" height="734" extended-state="0" />
+    <frame x="434" y="29" width="1182" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20789474" />
@@ -530,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="59" column="91" lean-forward="true" selection-start-line="59" selection-start-column="91" selection-end-line="59" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -547,7 +532,14 @@
     <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <caret line="2" column="79" lean-forward="true" selection-start-line="2" selection-start-column="79" selection-end-line="2" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>

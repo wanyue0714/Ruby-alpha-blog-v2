@@ -1,4 +1,6 @@
 class ArticlesController < ApplicationController
+  before_action :set_article, only: [:edit, :update, :show, :destroy]
+
   # index action
   def index
     # get all articles
@@ -57,6 +59,10 @@ class ArticlesController < ApplicationController
 
   # this is a private function for passing parameters to create method
   private
+  # extract redundant article.find
+  def set_article
+    @article = Article.find(params[:id])
+  end
   # Remember where you put private keyword. all the methods below that, will become private
   def article_params
     # it's a key value pair, key is the article, value is title and description
