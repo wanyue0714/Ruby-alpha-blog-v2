@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23de19e6-9043-425b-9dfb-a0fc521ecef0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-    </list>
+    <list default="true" id="23de19e6-9043-425b-9dfb-a0fc521ecef0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,8 +175,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="482" />
-    <option name="y" value="23" />
+    <option name="x" value="247" />
+    <option name="y" value="55" />
     <option name="width" value="1131" />
     <option name="height" value="606" />
   </component>
@@ -400,15 +396,16 @@
       <updated>1547752777585</updated>
       <workItem from="1547752779053" duration="317000" />
       <workItem from="1547753121535" duration="785000" />
-      <workItem from="1547753979558" duration="51015000" />
+      <workItem from="1547753979558" duration="51322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52117000" />
+    <option name="totallyTimeSpent" value="52424000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="482" y="23" width="1131" height="668" extended-state="0" />
+    <frame x="247" y="55" width="1131" height="606" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18916437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -423,8 +420,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49898374" weight="0.32970452" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.8163453" visible="true" weight="0.47916666" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.18365473" side_tool="true" weight="0.36960986" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.815427" visible="true" weight="0.47859922" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.18457301" side_tool="true" visible="true" weight="0.47859922" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
