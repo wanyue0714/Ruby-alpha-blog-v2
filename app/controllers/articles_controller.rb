@@ -14,9 +14,14 @@ class ArticlesController < ApplicationController
 
   # create article
   def create
+
+    # debugger
+
     # render plain: params[:article].inspect
     # create a new instant to save content
     @article = Article.new(article_params)
+
+    @article.user = User.first
     # after save
     if @article.save
       # display it on the layouts application page, means for all pages
