@@ -24,7 +24,7 @@ class ArticlesController < ApplicationController
     # create a new instant to save content
     @article = Article.new(article_params)
 
-    @article.user = User.first
+    @article.user = current_user
     # after save
     if @article.save
       # display it on the layouts application page, means for all pages
