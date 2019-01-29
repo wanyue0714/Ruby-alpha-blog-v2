@@ -56,11 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
               <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/.ssh/id_rsa.pub">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="747" selection-end-column="747" />
             </state>
           </provider>
         </entry>
@@ -342,10 +351,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54667000" />
+    <option name="totallyTimeSpent" value="54995000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="523" y="29" width="1028" height="714" extended-state="0" />
+    <frame x="252" y="23" width="1028" height="714" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19371197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -569,6 +578,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.ssh/id_rsa.pub">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="747" selection-end-column="747" />
         </state>
       </provider>
     </entry>
