@@ -13,7 +13,7 @@ class ApplicationController < ActionController::Base
   def require_user
     # if user is logged out, then do actions below
     if !logged_in
-      flash[:notice] = "You must be logged in to perform this action!"
+      flash[:danger] = "You must be logged in to perform this action!"
       redirect_to root_path
     end
   end
