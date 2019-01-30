@@ -1,10 +1,9 @@
 class SessionsController < ApplicationController
-  # index action
+
   def index
 
   end
 
-  # new an article
   def new
 
   end
