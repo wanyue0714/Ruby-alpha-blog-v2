@@ -1,6 +1,8 @@
 class Article < ActiveRecord::Base
 
   belongs_to :user
+  has_many :article_categories
+  has_many :categories, through: :article_categories
 
   # verify data before hit the database
   validates :title, presence: true, length: { minimum: 3, maximum: 50}
