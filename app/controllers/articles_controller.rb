@@ -74,7 +74,7 @@ class ArticlesController < ApplicationController
   # Remember where you put private keyword. all the methods below that, will become private
   def article_params
     # it's a key value pair, key is the article, value is title and description
-    params.require(:article).permit(:title, :description)
+    params.require(:article).permit(:title, :description, category_ids: [])
   end
 
   def require_same_user

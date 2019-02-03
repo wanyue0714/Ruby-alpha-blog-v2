@@ -73,6 +73,10 @@
           </div>
         </div>
 
+        <!--  categories-->
+        <% if article.categories.any? %>
+          <p>Categories: <%= render article.categories %></p>
+        <% end %>
 
         <% if logged_in && (current_user == article.user || current_user.admin?) %>
         <!--        copy buttons from show html-->
