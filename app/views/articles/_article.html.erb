@@ -57,13 +57,19 @@
   <div class = "row">
     <div class = "col-xs-8 col-xs-offset-2">
       <div class = "well well-lg">
+
         <!--        article title and link-->
-        <div class = "article-title">
-          <%= link_to article.title, article_path(article) %>
-        </div>
+
+        <!--  use react component to replace title and description -->
+        <!-- <div class = "article-title">-->
+          <%#= link_to article.title, article_path(article) %>
+          <%= react_component("Article", { title: article.title,
+                                           path: article_path(article),
+                                           description: truncate(article.description, length: 100) }) %>
+        <!--        </div>-->
         <!--        article description-->
         <div class="article-body">
-          <%= truncate(article.description, length: 100) %>
+          <%#= truncate(article.description, length: 100) %>
           <div class = "article-meta-details">
             <small>
               Created by: <%= article.user.username if article.user %>,
