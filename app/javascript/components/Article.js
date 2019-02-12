@@ -16,14 +16,33 @@ class Article extends React.Component {
             <small>
               Created by: {this.props.author},
               &nbsp;
-              <Timestamp time = {this.props.created_at} precision = {3}/> ago,
-              last updated:  <Timestamp time = {this.props.updated_at} precision = {3}/> ago
+              <Timestamp time = {this.props.created_at} precision = {4}/>
+              &nbsp;
+              last updated:  <Timestamp time = {this.props.updated_at} precision = {4}/>
             </small>
           </div>
         </div>
       </React.Fragment>
     );
   }
+
+  // compare the time and update it every second
+  componentDidMount() {
+     var self = this;
+     setInterval(
+       function() { self.forceUpdate()},
+       1000
+     );
+  }
+
+  // clear up when the component isn't loaded
+  componentWillUnmount() {
+      if (this._timer) {
+            clearInterval(this._timer);
+            this._timer = null;
+      }
+  }
+
 }
 
 Article.propTypes = {
