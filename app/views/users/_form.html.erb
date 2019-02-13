@@ -21,7 +21,7 @@
         <div class = "control-label col-sm-2">
           <%= f.label :email %>
         </div>
-        <div class = "col-sm-10">
+        <div class = "col-sm-8">
           <%= f.email_field :email, class: "form-control", placeholder: "Enter email", autofocus: true %>
         </div>
       </div>
@@ -34,6 +34,20 @@
         </div>
         <div class = "col-sm-10">
           <%= f.password_field :password, class: "form-control", placeholder: "Enter password", autofocus: true %>
+        </div>
+      </div>
+
+      <br>
+
+      <div class = "form-group">
+        <div class = "control-label col-sm-2">
+          <%= f.label :color %>
+        </div>
+        <div class = "col-sm-3">
+          <%= f.text_field :color, class: "form-control", placeholder: "Pick a color", autofocus: true %>
+        </div>
+        <div class = "col-sm-6">
+          <%= react_component('Colorpicker', { color: '#fff', selector: 'user_color'}) %>
         </div>
       </div>
 
